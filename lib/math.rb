@@ -21,7 +21,7 @@ end
 def modulo(num1, num2)
   fraction = num2 / num1
   remainder = fraction - num1
-  return
+  return remainder
 end
 
 def square_root(num)
