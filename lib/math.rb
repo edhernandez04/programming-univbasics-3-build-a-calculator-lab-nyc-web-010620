@@ -20,7 +20,7 @@ end
 
 def modulo(num1, num2)
   fraction = num2 / num1
-  remainder = fraction - num1
+  remainder = fraction.to_s - num2
   return remainder
 end
 
